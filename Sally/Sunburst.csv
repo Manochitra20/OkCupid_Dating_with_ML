@@ -32,8 +32,8 @@ Job-Health_Medicine,Health_Medicine,Dry Distillation-Job
 Job-Construction,Construction,Dry Distillation-Job
 Education-Master_Programs,Master_Programs,Dry Distillation-Education
 Education-Middle_School,Middle_School,Dry Distillation-Education
-Income-199.000,199.000,Dry Distillation-Income
-Income-30.000,30.000,Dry Distillation-Income
+Income-199000,199000,Dry Distillation-Income
+Income-30000,30000,Dry Distillation-Income
 Ethnicity-Asian,Asian,Bitter-Ethnicity
 Ethnicity-Native,Native,Bitter-Ethnicity
 Location-California,California,Bitter-Location
@@ -82,7 +82,7 @@ Master_Programs-Cedar,Cedar,Education-Master_Programs
 Master_Programs-Pepper,Pepper,Education-Master_Programs
 Middle_School-Clove,Clove,Education-Middle_School
 Middle_School-Thyme,Thyme,Education-Middle_School
-199.000-Tarry,Tarry,Income-199.000
-199.000-Pipe Tobacco,Pipe Tobacco,Income-199.000
-30.000,-Burnt,Burnt,Income-30.000,
-30.000,-Charred,Charred,Income-30.000,
+199000-Tarry,Tarry,Income-199000
+199000-Pipe Tobacco,Pipe Tobacco,Income-199000
+30000-Burnt,Burnt,Income-30000
+30000-Charred,Charred,Income-30000
