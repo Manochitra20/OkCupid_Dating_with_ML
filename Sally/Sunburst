@@ -1,0 +1,88 @@
+ids,labels,parents
+Enzymatic-Age,Age,
+Enzymatic-Body_type,Body_type,
+Enzymatic-Diet,Diet,
+Sugar Browning-Drinks,Drinks,
+Sugar Browning-Drugs,Drugs,
+Sugar Browning-Smokes,Smokes,
+Dry Distillation-Job,Job,
+Dry Distillation-Education,Education,
+Dry Distillation-Income,Income,
+Bitter-Ethnicity,Ethnicity,
+Bitter-Location,Location,
+Salt-Offspring,Offspring,
+Salt-Orientation,Orientation,
+Sweet-Religion,Religion,
+Sweet-Sign,Sign,
+Sour-Height,Status,
+Sour-Pets,Pets,
+Age-18,18,Enzymatic-Age
+Age-69,69,Enzymatic-Age
+Body_type-Fit,Fit,Enzymatic-Body_type
+Body_type-Average,Average,Enzymatic-Body_type
+Diet-Any_thing,Any_Thing,Enzymatic-Diet
+Diet-Kosher_Halal,Kosher_Hala,Enzymatic-Diet
+Drinks-Rarely,Rarely,Sugar Browning-Drinks
+Drinks-Not_At_All,Not_At_All,Sugar Browning-Drinks
+Drugs-Never,Never,Sugar Browning-Drugs
+Drugs-Rarely,Rarely,Sugar Browning-Drugs
+Smokes-Trying_to_quit,Trying_to_quit,Sugar Browning-Smokes
+Smokes-NO,NO,Sugar Browning-Smokes
+Job-Health_Medicine,Health_Medicine,Dry Distillation-Job
+Job-Construction,Construction,Dry Distillation-Job
+Education-Master_Programs,Master_Programs,Dry Distillation-Education
+Education-Middle_School,Middle_School,Dry Distillation-Education
+Income-199000,199000,Dry Distillation-Income
+Income-30000,30000,Dry Distillation-Income
+Ethnicity-Asian,Asian,Bitter-Ethnicity
+Ethnicity-Native,Native,Bitter-Ethnicity
+Location-California,California,Bitter-Location
+Location-Montana,Montana,Bitter-Location
+Offspring-Wants_Kids,Wants_Kids,Salt-Offspring
+Offspring-Doesn't_Want_Kids,Doesn't_Want_Kids,Salt-Offspring
+Orientation-Straight,Straight,Salt-Orientation
+Orientation-Gay,Gay,Salt-Orientation
+Religion-Agnosticism,Agnosticism,Sweet-Religion
+Religion- Islam, Islam,Sweet-Religion
+Sign-Gemini,Gemini,Sweet-Sign
+Sign-Leo,Leo,Sweet-Sign
+Status-Single,Single,Sour-Status
+Status-Married,Married,Sour-Status
+Pets-Like_Dogs,Like_Dogs,Sour-Pets
+Pets-Like_Cats,Like_cats,Sour-Pets
+18-Coffee Blossom,Coffee Blossom,Age-18
+18-Tea Rose,Tea Rose,Age-18
+69-Cardamon Caraway,Cardamon Caraway,Age-69
+69-Coriander Seeds,Coriander Seeds,Age-69
+Fit-Lemon,Lemon,Body_type-Fit
+Fit-Apple,Apple,Body_type-Fit
+Average-Apricot,Apricot,Body_type-Average
+Average-Blackberry,Blackberry,Body_type-Average
+Any_thing-Onion,Onion,Diet-Any_thing
+Any_thing-Garlic,Garlic,Diet-Any_thing
+Kosher_Halal-Cucumber,Cucumber,Diet-Kosher_Halal
+Kosher_Halal-Garden Peas,Garden Peas,Diet-Kosher_Halal
+Rarely-Roasted Peanuts,Roasted Peanuts,Drinks-Rarely
+Rarely-Walnuts,Walnuts,Drinks-Rarely
+Not_At_All-Balsamic Rice,Balsamic Rice,Drinks-Not_At_All
+Not_At_All-Toast,Toast,Drinks-Not_At_All
+Never-Roasted Hazelnut,Roasted Hazelnut,Drugs-Never
+Never-Roasted Almond,Roasted Almond,Drugs-Never
+Rarely-Honey,Honey,Drugs-Rarely
+Rarely-Maple Syrup,Maple Syrup,Drugs-Rarely
+Trying_to_quit-Bakers,Bakers,Smokes-Trying_to_quit
+Trying_to_quit-Dark Chocolate,Dark Chocolate,Smokes-Trying_to_quit
+NO-Swiss,Swiss,Smokes-NO
+NO-Butter,Butter,Smokes-NO
+Health_Medicine-Piney,Piney,Job-Health_Medicine
+Health_Medicine-Blackcurrant-like,Blackcurrant-like,Job-Health_Medicine
+Construction-Camphoric,Camphoric,Job-Construction
+Construction-Cineolic,Cineolic,Job-Construction
+Master_Programs-Cedar,Cedar,Education-Master_Programs
+Master_Programs-Pepper,Pepper,Education-Master_Programs
+Middle_School-Clove,Clove,Education-Middle_School
+Middle_School-Thyme,Thyme,Education-Middle_School
+199000-Tarry,Tarry,Income-199000
+199000-Pipe Tobacco,Pipe Tobacco,Income-199000
+30000-Burnt,Burnt,Income-30000
+30000-Charred,Charred,Income-30000
