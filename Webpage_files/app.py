@@ -10,11 +10,14 @@ app = Flask(__name__,template_folder='templates')
 # Load the model
 model = pickle.load(open('../model.pkl','rb'))
 
-# Route to render index.html template using data from Mongo
-@app.route("/")
-def home():
+# Route to render index.html template using data 
+@app.route("/index.html")
+def index():
     return render_template("index.html")  
-
+# Route to render index.html template using data 
+@app.route("/model_build.html")
+def model_build():
+    return render_template("model_build.html")  
 
 # Route to the form info
 @app.route("/new_index.html")
@@ -84,7 +87,7 @@ def matchme():
     results_df= pd.read_csv(file_to_load)
     return_dict= results_df[results_df['class']== output].to_dict(orient="records")
     print(return_dict)
-    return render_template("new_index.html", dict=return_dict) 
+    return render_template("table.html", dict=return_dict) 
 
 if __name__ == "__main__":
     app.run(debug=True)

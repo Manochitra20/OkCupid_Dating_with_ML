@@ -48,7 +48,7 @@
             <a class="nav-link" href="Sally_sunburst.html" style="color: rgb(52, 123, 231);"> Overview</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sally_dashboard.html" style="color: rgb(52, 123, 231);"> Dashboard</a>
+          <a class="nav-link" href="dashboard.html" style="color: rgb(52, 123, 231);"> Dashboard</a>
       </li>
         <li class="nav-item">
             <a class="nav-link" href="ruby.html" style="color: rgb(52, 123, 231);"> Supervised ML</a>
@@ -66,7 +66,7 @@
             Matching Profiles
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="dashboard1.html">Model Building</a>
+            <a class="dropdown-item" href="model_build.html">Model Building</a>
             <a class="dropdown-item" href="new_index.html">Model Testing</a>
             </div>
         </li>
@@ -84,11 +84,8 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="dashboard1.html">Model Building</a>
-            <a class="dropdown-item" href="new_index.html">Model Testing</a>
+            <a class="dropdown-item" href="new_index1.html">Model Testing</a>
             </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="summary.html" style="color: rgb(52, 123, 231);"> Summary</a>
         </li>
       </ul>
     </div>
@@ -262,107 +259,8 @@
     </div>
 
   </div>
-  <br>
-  <br>
-  <div class="col-auto">
-    <h1 style = "padding: 10px; border: 2px solid rgb(0, 81, 255);">Matching Profiles from OkCupid Dataset</h1>
-    <br>
-  <table width="100%">
-    
-      <tr>
-        <th>
-          AGE
-        </th>
-        <th>
-          BODY TYPE
-        </th>
-        <th>
-          DIET
-        </th>
-        <th>
-          DRINKS
-        </th>
-        <th>
-          DRUGS
-        </th>
-        <th>
-          EDUCATION
-        </th>
-        <th>
-          ETHNICITY
-        </th>
-        <th>
-          HEIGHT
-        </th>
-        <th>
-          INCOME
-        </th>
-        <th>
-          JOB
-        </th>
-        <th>
-          ORIENTATION
-        </th>
-        <th>
-          RELIGION
-        </th>
-        <th>
-          SMOKES
-        </th>
-        <th>
-          STATUS
-        </th>
-      </tr>
-      {% if dict %}
-      {% for profile in dict %}
-          <tr>
-            <td>
-              {{ profile.age }}
-            </td>
-            <td>
-              {{ profile.body_type }}
-            </td>
-            <td>
-              {{ profile.diet }}
-            </td>
-            <td>
-              {{ profile.drinks }}
-            </td>
-            <td>
-              {{ profile.drugs }}
-            </td>
-            <td>
-              {{ profile.education }}
-            </td>
-            <td>
-              {{ profile.ethnicity }}
-            </td>
-            <td>
-              {{ profile.height }}
-            </td>
-            <td>
-              {{ profile.income }}
-            </td>
-            <td>
-              {{ profile.job }}
-            </td>
-            <td>
-              {{ profile.orientation }}
-            </td>
-            <td>
-              {{ profile.religion }}
-            </td>
-            <td>
-              {{ profile.smokes }}
-            </td>
-            <td>
-              {{ profile.status }}
-            </td>
-          </tr>
-      {% endfor %}
-      {% endif %}
-      </table>
-    </div>
+ 
+  
   
 
 
