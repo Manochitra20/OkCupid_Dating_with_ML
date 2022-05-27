@@ -38,3 +38,8 @@ I ended up also running a separate test with gender prediction to see how the tw
 
 
 Sam
+I cleaned the columns of "Education", "Job", and "Income". For the income part, I should make some data in the dataset because there are many blanks in the income data. For making it reasonable, I referenced a lot of data from the pole website or Job recruiting website, and I divided the income into 5 portion which are '0 - 10%', '10 - 25%', '25 - 50%', '50 - 75%', '75 - 100%'. 
+
+Also I coordinated the website for 'Text Analysis' and 'Essay Sentimental Analysis', 'Sentimental testing'. In order to make an interactive experience, I used flask. 
+
+I made essay analysis test using VaderSentimentalAnalyzer which is a trained data. 
