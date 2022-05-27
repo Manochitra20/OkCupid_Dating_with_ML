@@ -12,7 +12,7 @@ creating Tableau presentation.
 
 Manochitra Kumar: **Clustering and creating a recommendation algorithm:**
 
-This scope for this part of the project was to cluster the user’s profiles into groups and to try to find a match more easily with the help of machine learning algorithms. We tried different different modelling/training methods with the data we had.
+The scope for this part of the project was to cluster the user’s profiles into groups and to try to find a match more easily with the help of machine learning algorithms. We tried different different modelling/training methods with the data we had.
 The first step was to clean and preprocess the available data in way it can be understood by the algorithms. 
 
 The preprocess consisted of splitting the data into numerical (age, income, height) and categorical variables (diet, education, job). Then the numerical variables were scaled using standardscaler and the categorical variables were transformed from string to float using ohehotencoder.
