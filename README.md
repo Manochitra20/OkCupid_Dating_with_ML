@@ -12,12 +12,12 @@ creating Tableau presentation.
 
 Manochitra Kumar: **Clustering and creating a recommendation algorithm:**
 
-The scope for this part of the project was to cluster the user’s profiles into groups and to try to find a match more easily with the help of machine learning algorithms. We tried different different modelling/training methods with the data we had.
-The first step was to clean and preprocess the available data in way it can be understood by the algorithms. 
+The scope for this part of the project was to cluster the user’s profiles into groups and to try to find a match more easily with the help of machine learning algorithms. We tried using different modelling/training methods for the data we had.
+The first step was to clean and preprocess the available data in a way it can be understood by the algorithms. 
 
 The preprocess consisted of splitting the data into numerical (age, income, height) and categorical variables (diet, education, job). Then the numerical variables were scaled using standardscaler and the categorical variables were transformed from string to float using ohehotencoder.
 
-**Kmeans clustering** algorithm was chosen to cluster the profile data into different groups. The results from kmeans were plotted and from the first elbow graph we picked 7 clusters.  And when we investigate the cluster plot , we immediately see that there are no distinct clusters.
+**Kmeans clustering** algorithm was chosen to cluster the profile data into different groups. The results from kmeans were plotted and from the elbow graph we were able to pick 7 clusters.  And when we investigate the cluster plot , we immediately see that there are no distinct clusters.
 
 We then did feature reduction using PCA, and the elbow plot showed 7 clusters, and the cluster plot also didn’t show much distinct clusters.
 
