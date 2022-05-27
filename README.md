@@ -32,7 +32,9 @@ When user inputs data in the form created in html, the pipeline predicts the clu
 
 
 Ruby
-
+For my portion of the projection, I wanted to do Supervised Machine Learning and predict Body Type from a select part of the data provided. Cleaning up the data into a way that I can use
+it for Machine Learning, I proceeded to  break down my data to be able to input it to the models. Running that and seeing how the outcomes were like,
+I ended up also running a separate test with gender prediction to see how the two differ. Running Random Forest & Neural Network for Body Type resulted in high training & low testing scores. Running Random Forest, Logistic Regression, & Neural Network for Gender results in higher training & testing. 
 
 
 Sam
