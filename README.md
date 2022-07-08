@@ -6,7 +6,8 @@ Flask, Java script, Html, ccs
 tableau, plotly, Machine learning
 
 
-cleanned 4 columns from the data and Graph it
+## visualization
+
 using sunburst graph using plotly 
 creating Tableau presentation.
 
@@ -31,15 +32,13 @@ When user inputs data in the form created in html, the pipeline predicts the clu
 
 
 
-Ruby
-For my portion of the projection, I wanted to do Supervised Machine Learning and predict Body Type from a select part of the data provided. Cleaning up the data into a way that I can use
+For our portion of the projection, we wanted to do Supervised Machine Learning and predict Body Type from a select part of the data provided. Cleaning up the data into a way that I can use
 it for Machine Learning, I proceeded to  break down my data to be able to input it to the models. Running that and seeing how the outcomes were like,
-I ended up also running a separate test with gender prediction to see how the two differ. Running Random Forest & Neural Network for Body Type resulted in high training & low testing scores. Running Random Forest, Logistic Regression, & Neural Network for Gender results in higher training & testing. 
+we ended up also running a separate test with gender prediction to see how the two differ. Running Random Forest & Neural Network for Body Type resulted in high training & low testing scores. Running Random Forest, Logistic Regression, & Neural Network for Gender results in higher training & testing. 
 
 
-Sam
-I cleaned the columns of "Education", "Job", and "Income". For the income part, I should make some data in the dataset because there are many blanks in the income data. For making it reasonable, I referenced a lot of data from the pole website or Job recruiting website, and I divided the income into 5 portion which are '0 - 10%', '10 - 25%', '25 - 50%', '50 - 75%', '75 - 100%'. 
+We cleaned the columns of "Education", "Job", and "Income". For the income part, I should make some data in the dataset because there are many blanks in the income data. For making it reasonable, I referenced a lot of data from the pole website or Job recruiting website, and I divided the income into 5 portion which are '0 - 10%', '10 - 25%', '25 - 50%', '50 - 75%', '75 - 100%'. 
 
-Also I coordinated the website for 'Text Analysis' and 'Essay Sentimental Analysis', 'Sentimental testing'. In order to make an interactive experience, I used flask. 
+Also  coordinated the website for 'Text Analysis' and 'Essay Sentimental Analysis', 'Sentimental testing'. In order to make an interactive experience, I used flask. 
 
 I made essay analysis test using VaderSentimentalAnalyzer which is a trained data. 
