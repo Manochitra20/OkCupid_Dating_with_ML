@@ -11,8 +11,8 @@ app = Flask(__name__,template_folder='templates')
 model = pickle.load(open('../model.pkl','rb'))
 
 # Route to render index.html template using data 
-@app.route("/index.html")
-def index():
+@app.route("/")
+def home():
     return render_template("index.html")  
 # Route to render index.html template using data 
 @app.route("/model_build.html")
