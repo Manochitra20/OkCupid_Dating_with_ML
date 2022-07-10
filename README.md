@@ -1,15 +1,11 @@
 # OkCupid_Dating_with_ML
 
-We cleanned the data using Python, Pandas
-presentation using:
-Flask, Java script, Html, ccs
-tableau, plotly, Machine learning
+Tools used:  Python/Pandas,Flask, Javascript, HTML, CSS, Tableau, Machine learning
 
 
-## visualization
-
-using sunburst graph using plotly 
-creating Tableau presentation.
+## Data Visualization:
+-Sunburst from plotly.js
+-Tableau for dashboard
 
 **Clustering and creating a recommendation algorithm:**
 
@@ -18,9 +14,9 @@ The first step was to clean and preprocess the available data in a way it can be
 
 The preprocess consisted of splitting the data into numerical (age, income, height) and categorical variables (diet, education, job). Then the numerical variables were scaled using standardscaler and the categorical variables were transformed from string to float using ohehotencoder.
 
-**Kmeans clustering** algorithm was chosen to cluster the profile data into different groups. The results from kmeans were plotted and from the elbow graph we were able to pick 7 clusters.  And when we investigate the cluster plot , we immediately see that there are no distinct clusters.
+**Kmeans clustering** algorithm was chosen to cluster the profile data into different groups. The results from kmeans were plotted and the elbow plot showed 7 clusters.  And when further investigated using a cluster plot , we immediately see that there are no distinct clusters.
 
-We then did feature reduction using PCA, and the elbow plot showed 7 clusters, and the cluster plot also didn’t show much distinct clusters.
+Feature reduction was done using PCA, and the elbow plot showed 7 clusters, and the cluster plot also didn’t show much distinct clusters.
 
 We added the clusters to the original dataset. we proceeded with training the model with supervised ML.
 We used **K nearest neighbour and random forest** method for this purpose. The accuracy score for the KNN method was 63% and 55% for training and testing data respectively. However, on the other hand randomforest model gave as a very good score of above 90% for both training and testing data.
